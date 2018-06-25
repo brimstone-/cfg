@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Mon Dec  4 16:47:13 AM
+// File generated:  Thu Mar 29 00:20:30 AM
 //
 //
 // Cvar	-	Setting
@@ -187,6 +187,30 @@ DESCRIPTION INFO_OPTIONS
 		{ "1" }
 	}
 
+	"hud_combattext_red"
+	{
+		"#Tooltip_CombatTextRed"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "255" }
+	}
+
+	"hud_combattext_green"
+	{
+		"#Tooltip_CombatTextGreen"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "255" }
+	}
+
+	"hud_combattext_blue"
+	{
+		"#Tooltip_CombatTextBlue"
+		"#Tooltip_CombatTextColors"
+		{ SLIDER 1 255 }
+		{ "255" }
+	}
+
 	"tf_remember_activeweapon"
 	{
 		"#TF_rememberactiveweapon"
@@ -292,7 +316,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_colorblindassist"
 		"#Tooltip_colorblindassist"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_use_tournament_specgui"
@@ -308,7 +332,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_SpectateCarriedItems"
 		"#Tooltip_SpectateCarriedItems"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"glow_outline_effect_enable"
@@ -316,7 +340,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_UseGlowEffect"
 		"#Tooltip_UseGlowEffect"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_enable_glows_after_respawn"
@@ -474,6 +498,13 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_ScoreBoard_AltClassIcons"
 		{ BOOL }
 		{ "0" }
+	}
+
+	"tf_use_match_hud"
+	{
+		"#TF_UseMatchHUD"
+		{ BOOL }
+		{ "1" }
 	}
 
 	"category4"
@@ -634,7 +665,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"cl_steamscreenshots"
@@ -684,7 +715,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_ShowPromotionalCodesButton"
 		"#Tooltip_ShowPromotionalCodesButton"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"category7"
