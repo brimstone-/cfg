@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Thu Mar 29 00:20:30 AM
+// File generated:  Tue Jul  3 00:12:48 AM
 //
 //
 // Cvar	-	Setting
@@ -208,7 +208,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextBlue"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "255" }
+		{ "1" }
 	}
 
 	"tf_remember_activeweapon"
@@ -224,7 +224,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_rememberlastweapon"
 		"#Tooltip_rememberlastweapon"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_sniper_fullcharge_bell"
@@ -294,7 +294,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_AutoMedicCallThreshold"
 		"#Tooltip_AutoMedicCallThreshold"
 		{ SLIDER 10 99 }
-		{ "81.080002" }
+		{ "40" }
 	}
 
 	"category3"
@@ -450,7 +450,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_TargetID_Alpha"
 		"#ToolTip_TargetID_Alpha"
 		{ SLIDER 0 255 }
-		{ "100" }
+		{ "255" }
 	}
 
 	"tf_contract_progress_show"
@@ -463,7 +463,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Contract_Progress_All" "1"
 			"#TF_Contract_Progress_Active" "2"
 		}
-		{ "1" }
+		{ "0" }
 	}
 
 	"tf_contract_competitive_show"
@@ -588,7 +588,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_DisableHTMLMOTD"
 		"#Tooltip_DisableHTMLMOTD"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"mp_decals"
@@ -596,7 +596,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_Multiplayer_Decal_Limit"
 		"#Tooltip_Multiplayer_Decal_Limit"
 		{ NUMBER 0 4096 }
-		{ "9" }
+		{ "0" }
 	}
 
 	"category6"
