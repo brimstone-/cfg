@@ -1,17 +1,16 @@
 "motd_entries"
 {
-	"last_request_time"		"2018-09-27 22:05:21"
+	"last_request_time"		"2019-10-03 20:30:10"
 	"last_request_language"		"english"
-	"85"
+	"91"
 	{
-		"post_time"		"2018-03-29 01:50:00"
-		"title_english"		"Update Released!"
-		"text_english"		"We've just released an update that includes matchmaking improvements, a new community cosmetic case, lots of bug fixes, and more!
-			
-			Click below for more details!"
-		"url"		"http://www.teamfortress.com/post.php?id=38643"
-		"image"		"../vgui/main_menu/motd_02_28_18"
-		"header_type"		"0"
-		"header_english"		"News"
+		"post_time"		"2019-10-02 01:50:00"
+		"title_english"		"Halloween"
+		"text_english"		"Halloween has begun! Play all of your favorite Halloween maps while we put together this year's update with contracts and more community content!"
+		"url"		"http://www.teamfortress.com/"
+		"image"		"illustrations/gamemode_halloween2015"
+		"header_type"		"2"
+		"header_english"		"Happy Halloween"
+		"header_icon"		"class_icons/filter_all_motd"
 	}
 }

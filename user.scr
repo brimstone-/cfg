@@ -32,7 +32,7 @@
 
 
 // Half-Life User Info Configuration Layout Script (stores last settings chosen, too)
-// File generated:  Wed Aug 22 18:07:01 AM
+// File generated:  Wed Jun 19 15:36:36 AM
 //
 //
 // Cvar	-	Setting
@@ -208,7 +208,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Tooltip_CombatTextBlue"
 		"#Tooltip_CombatTextColors"
 		{ SLIDER 1 255 }
-		{ "255" }
+		{ "1" }
 	}
 
 	"tf_remember_activeweapon"
@@ -340,7 +340,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_UseGlowEffect"
 		"#Tooltip_UseGlowEffect"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_enable_glows_after_respawn"
@@ -355,7 +355,7 @@ DESCRIPTION INFO_OPTIONS
 		"#GameUI_HudPlayerClassUsePlayerModel"
 		"#ToolTip_HudPlayerClassUsePlayerModel"
 		{ BOOL }
-		{ "1" }
+		{ "0" }
 	}
 
 	"viewmodel_fov"
@@ -404,7 +404,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Vignette_Static" "1"
 			"#TF_Pyrovision_Vignette_Dynamic" "2"
 		}
-		{ "0" }
+		{ "2" }
 	}
 
 	"pyro_vignette_distortion"
@@ -415,7 +415,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"pyro_dof"
@@ -426,7 +426,7 @@ DESCRIPTION INFO_OPTIONS
 			"#TF_Pyrovision_Disable" "0"
 			"#TF_Pyrovision_Enable" "1"
 		}
-		{ "0" }
+		{ "1" }
 	}
 
 	"tf_romevision_opt_in"
@@ -642,7 +642,7 @@ DESCRIPTION INFO_OPTIONS
 		"#TF_use_min_viewmodels_option"
 		"#Tooltip_use_min_viewmodels_option"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_playerspraydisable"
@@ -665,7 +665,7 @@ DESCRIPTION INFO_OPTIONS
 		"#Valve_UseSteamCloud"
 		"#Tooltip_UseSteamCloud"
 		{ BOOL }
-		{ "0" }
+		{ "1" }
 	}
 
 	"cl_steamscreenshots"
